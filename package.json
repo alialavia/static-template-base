@@ -1,0 +1,51 @@
+{
+  "name": "templated_bootstrap_modern_business",
+  "version": "0.1.0",
+  "description": "This is a starter for working with [gulp-static-template-resolver](https://github.com/alialavia/gulp-static-template-resolver) in order to generate the htmls based on some json data and javascript commands, stored in src/templates/resolve.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist/ && babel ./ --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
+    "start": "npm run build && node dist/index.js"
+  },
+  "author": "Ali Alavi",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-cache": "^1.0.2",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-es6-template-strings": "^1.0.1",
+    "gulp-ignore-errors": "0.0.4",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-static-template-resolver": "^0.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-useref": "^3.1.4",
+    "require-reload": "^0.2.2",
+    "run-sequence": "^2.2.1",
+    "zip-array": "^1.0.1"
+  },
+  "dependencies": {
+    "npm": "^6.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alialavia/static-template-base.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "template",
+    "gulp",
+    "html",
+    "javascript",
+    "static",
+    "ES6"
+  ],
+  "bugs": {
+    "url": "https://github.com/alialavia/static-template-base/issues"
+  },
+  "homepage": "https://github.com/alialavia/static-template-base#readme"
+}

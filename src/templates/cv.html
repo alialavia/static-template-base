@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+  <title>${basic.name.first} ${basic.name.last}</title>
+  <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro%7CMonoton%7CSpace+Mono%7CUbuntu+Condensed%7CMegrim%7CGraduate%7CSpace+Mono" rel="stylesheet">
+  <link href="css/global.css" rel="stylesheet" type="text/css">
+  <link rel="icon" href="img/favicon.ico">
+</head>
+
+<body>
+  <h1>${basic.name.first} ${basic.name.last}</h1>
+
+  <h3>[experience & skills]</h3>
+  ${many(work, ...experience)}
+
+  <h3>[education]</h3>
+  ${many(edu, ...education)}
+  <h3>[skills]</h3>
+  ${many(ul, ...skills)}
+  <h3>[hobbies & personality]</h3>
+  ${many(ul, ...hobbies)}
+  <h3>[side projects]</h3>
+  ${many(edu, ...sideprojects)}
+  <h3>[contact me]</h3>
+  <ul>
+    <li><a href="mailto:alialavia@gmail.com">alialavia@gmail.com</a></li>
+    <li><a href="https://github.com/alialavia">https://github.com/alialavia</a></li>
+    <li><a href="https://alialavia.github.io">https://alialavia.github.io</a></li>
+    <li><a href="phone:+1 (647) 336-9134">+1 (647) 336-9134</a></li>
+    <li>1412 - 50 Charles St E, M4Y 1T1, Toronto, ON</li>
+  </ul>
+  <footer>Ali Alavi</footer>
+</body>
+</html>

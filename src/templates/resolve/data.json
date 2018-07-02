@@ -8,7 +8,7 @@
         }
     },
     "education": [
-        ["2013-2018", "ETH Zuirch, Zurich, Switzerland", "Ph.D., Human-Computer Interaction", "Hand and gesture recognition"],
+        ["2013-2018", "ETH Zurich, Zurich, Switzerland", "Ph.D., Human-Computer Interaction", "Development of a framework for pose and gesture recognition"],
         ["2010-2012", "Chalmers University of Technology, Gothenburg, Sweden", "Master of Science, Computer systems and networks", "Focused on secure and dependable computer systems, and formal methods."],
         ["2002-2007", "Amirkabir University of Technology (Tehran Polytechnic), Tehran, Iran", "Bachelor of Science, Computer Engineering", "With focus courses on computer science and digital electronics."]
     ],

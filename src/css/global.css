@@ -1,6 +1,6 @@
 body {
   font-family: 'Space Mono', monospace;
-  font-weight: bold;
+  font-weight: normal;
   text-align: left; }
 
 h3 {
@@ -13,8 +13,14 @@ p {
   font-weight: normal; }
 
 @media print {
-  a:after {
-    content: " [" attr(href) "]"; } }
+  a:link, a:visited, .contact:visited, .contact:link {
+    color: black; }
+  a:not(.contact):after {
+    content: " [" attr(href) "]"; }
+  .contact {
+    text-decoration: none; }
+  body {
+    font-family: 'Times New Roman'; } }
 
 a:visited {
   color: darkgray; }

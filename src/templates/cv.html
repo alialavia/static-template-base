@@ -1,34 +1,46 @@
 <!doctype html>
 <html>
+
 <head>
-  <title>${basic.name.first} ${basic.name.last}</title>
-  <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro%7CMonoton%7CSpace+Mono%7CUbuntu+Condensed%7CMegrim%7CGraduate%7CSpace+Mono" rel="stylesheet">
-  <link href="css/global.css" rel="stylesheet" type="text/css">
-  <link rel="icon" href="img/favicon.ico">
+    <title>${basic.name.first} ${basic.name.last}</title>
+    <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro%7CMonoton%7CSpace+Mono%7CUbuntu+Condensed%7CMegrim%7CGraduate%7CSpace+Mono" rel="stylesheet">
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <link href="css/global.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="img/favicon.ico">
 </head>
 
 <body>
-  <h1>${basic.name.first} ${basic.name.last}</h1>
-
-  <h3>[experience & skills]</h3>
-  ${many(work, ...experience)}
-
-  <h3>[education]</h3>
-  ${many(edu, ...education)}
-  <h3>[skills]</h3>
-  ${many(ul, ...skills)}
-  <h3>[hobbies & personality]</h3>
-  ${many(ul, ...hobbies)}
-  <h3>[side projects]</h3>
-  ${many(edu, ...sideprojects)}
-  <h3>[contact me]</h3>
-  <ul>
-    <li><a class="contact" href="mailto:alialavia@gmail.com">alialavia@gmail.com</a></li>
-    <li><a class="contact" href="https://github.com/alialavia">https://github.com/alialavia</a></li>
-    <li><a class="contact" href="https://alialavia.github.io">https://alialavia.github.io</a></li>
-    <li><a class="contact" href="phone:+1 (647) 336-9134">+1 (647) 336-9134</a></li>
-    <li>1412 - 50 Charles St E, M4Y 1T1, Toronto, ON</li>
-  </ul>
-  <footer>Ali Alavi</footer>
+    <h1>${basic.name.first} ${basic.name.last}</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3>[experience & skills]</h3> ${many(work, ...experience)}
+                <h3>[education]</h3> ${many(work, ...education)}
+                <h3>[skills]</h3> ${many(ul, ...skills)}
+                <h3>[hobbies & personality]</h3> ${many(ul, ...hobbies)}
+                <h3>[side projects]</h3> ${many(work, ...sideprojects)}
+  
+                <h3>[contact me]</h3>
+                <ul>
+                    <li><a class="contact" href="mailto:alialavia@gmail.com">alialavia@gmail.com</a></li>
+                    <li><a class="contact" href="https://github.com/alialavia">https://github.com/alialavia</a></li>
+                    <li><a class="contact" href="https://alialavia.github.io">https://alialavia.github.io</a></li>
+                    <li><a class="contact" href="phone:+1 (647) 336-9134">+1 (647) 336-9134</a></li>
+                    <li>1412 - 50 Charles St E, M4Y1T1, Toronto, ON</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer>Ali Alavi</footer>
 </body>
+
 </html>

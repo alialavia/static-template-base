@@ -4,6 +4,7 @@ body {
     font-family: 'Space Mono', monospace;
     font-weight: normal;
     text-align: left;
+    font-size: small;
 }
 
 h3 {
@@ -18,13 +19,63 @@ p {
 }
 
 @media print{
-	   a:link, a:visited, .contact:visited, .contact:link {
-    	color: $color;
-	   }
-       a:not(.contact):after { content:" [" attr(href) "]"; }
-       .contact { text-decoration: none; }
-
-       body { font-family: 'Times New Roman';}
+    a:link, a:visited, .contact:visited, .contact:link {
+    color: $color;
+    }
+  .contact[href]:after {
+    content: none;
+  }    
+  .contact { text-decoration: none; }
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+  .col-md-11 {
+    width: 91.66666667%;
+  }
+  .col-md-10 {
+    width: 83.33333333%;
+  }
+  .col-md-9 {
+    width: 75%;
+  }
+  .col-md-8 {
+    width: 66.66666667%;
+  }
+  .col-md-7 {
+    width: 58.33333333%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-5 {
+    width: 41.66666667%;
+  }
+  .col-md-4 {
+    width: 33.33333333%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-2 {
+    width: 16.66666667%;
+  }
+  .col-md-1 {
+    width: 8.33333333%;
+  }
+  .col-md-pull-12 {
+    right: 100%;
+  }
+  .col-md-pull-11 {
+    right: 91.66666667%;
+  }
+  .col-md-pull-10 {
+    right: 83.33333333%;
+  }
+  body { font-size: 9pt}
+  footer { display: none;}
 }
 
 a:visited {

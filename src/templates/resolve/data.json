@@ -8,9 +8,8 @@
         }
     },
     "education": [
-        ["2013-2018", "ETH Zurich, Zurich, Switzerland", "Ph.D., Human-Computer Interaction", "Development of a framework for pose and gesture recognition"],
-        ["2010-2012", "Chalmers University of Technology, Gothenburg, Sweden", "Master of Science, Computer systems and networks", "Focused on secure and dependable computer systems, and formal methods."],
-        ["2002-2007", "Amirkabir University of Technology (Tehran Polytechnic), Tehran, Iran", "Bachelor of Science, Computer Engineering", "With focus courses on computer science and digital electronics."]
+        ["2010-2012", "Chalmers University of Technology, Gothenburg, Sweden", "Master of Science, Computer systems and networks", ["Focused on secure and dependable computer systems, and formal methods."]],
+        ["2002-2007", "Amirkabir University of Technology (Tehran Polytechnic), Tehran, Iran", "Bachelor of Science, Computer Engineering", ["With focus courses on computer science and digital electronics."]]
     ],
     "experience": [
         ["2017-2018", "MedAux Inc.", "CTO", 
@@ -28,7 +27,7 @@
         ],
         ["2005-2010", "Bloorintar", "Embedded Software Engineer", 
             ["Design and development of embedded solutions", 
-             "C, C#, Assembly, Javascript"]
+             "C, C#, Assembler, CSS/HTML/JavaScript, AVR+FPGA+Verilog"]
         ],
         ["2002-2005", "Peyvand Afzar Farda", "Fullstack developer", 
             ["Web developer",
@@ -42,12 +41,12 @@
     ],
     "hobbies": [
         ["Movies, books, slacklining"],
-        ["Avid traveler language enthusiast: English, Persian, Swedish (B1), Spanish (B1), German (A2)"],
+        ["Avid traveler, language enthusiast: English, Persian, Swedish (B1), Spanish (B1), German (A2)"],
         ["Goal oriented, maker+hacker, data oriented"] 
     ],
     "sideprojects": [
-        ["2014", "Zurich, Switzerland", "Automatic News Generation Based on Twitter", "Selected as the top 3 projects in Big Data, Fall 2014, ETH Zurich"],
-        ["2011", "Gothenburg, Sweden", "TravelHack", "Selected as best app for improving pubtrans in Vastra Gotaland, Sweden"]
+        ["2014", "Zurich, Switzerland", "Automatic News Generation Based on Twitter", ["Selected as the top 3 projects in Big Data, Fall 2014, ETH Zurich"]],
+        ["2011", "Gothenburg, Sweden", "TravelHack", ["Selected as best app for improving pubtrans in Vastra Gotaland, Sweden"]]
     ],
     "contact": [
         "+1 (647) 336 91 34",

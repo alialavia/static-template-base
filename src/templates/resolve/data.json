@@ -8,10 +8,15 @@
         }
     },
     "education": [
+        ["2012-2018", "ETH Zurich, Zurich, Switzerland", "Ph.D., Human-Computer Interaction", ["Development of a framework for pose and gesture recognition"]],
         ["2010-2012", "Chalmers University of Technology, Gothenburg, Sweden", "Master of Science, Computer systems and networks", ["Focused on secure and dependable computer systems, and formal methods."]],
         ["2002-2007", "Amirkabir University of Technology (Tehran Polytechnic), Tehran, Iran", "Bachelor of Science, Computer Engineering", ["With focus courses on computer science and digital electronics."]]
     ],
     "experience": [
+        ["2018", "Ryerson University + IEEE", "Python for Data Science Workshop", 
+            ["A Hands on Workshop for Electrical and Computer Engineering Students",
+             "Teaching Basics of Python and NLTK for analysing Trump's Tweets (notes: https://bit.ly/2KPNNhT)"]
+        ],
         ["2017-2018", "MedAux Inc.", "CTO", 
             ["Architect, full stack development, code revision and supervision of a small team of developers",
              "Accepted into StarTech and EdTech Accelerators, awarded first place in Hofstra Venture Challenge", 
@@ -45,7 +50,7 @@
         ["Goal oriented, maker+hacker, data oriented"] 
     ],
     "sideprojects": [
-        ["2014", "Zurich, Switzerland", "Automatic News Generation Based on Twitter", ["Selected as the top 3 projects in Big Data, Fall 2014, ETH Zurich"]],
+        ["2014", "Zurich, Switzerland", "Automatic News Generation Based on Twitter", ["Selected as one of the best projects in Big Data, Fall 2014, ETH Zurich"]],
         ["2011", "Gothenburg, Sweden", "TravelHack", ["Selected as best app for improving pubtrans in Vastra Gotaland, Sweden"]]
     ],
     "contact": [
